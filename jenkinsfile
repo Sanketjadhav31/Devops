@@ -1,11 +1,7 @@
-pipeline {
-    agent any
+package com.example;
 
-    stages {
-        stage('Hello') {
-            steps {
-                echo 'Hello World'
-            }
-        }
+public class App{
+    public static void main(String [] args){
+        System.out.println("hello sanket");
     }
 }
